@@ -1,6 +1,11 @@
 program oscst;
 
 uses
+  madExcept,
+  madLinkDisAsm,
+  madListHardware,
+  madListProcesses,
+  madListModules,
   Forms,
   main in 'main.pas' {Form1},
   uOSCReader in '..\uOSCReader.pas',

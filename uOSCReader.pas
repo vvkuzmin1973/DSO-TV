@@ -4,6 +4,11 @@ interface
 
 uses Windows, Classes,SysUtils, Forms, MMSystem;
 
+
+type Char = AnsiChar;
+
+type PChar = PAnsiChar;
+
 type  TDwordArray   = array [0..0] of DWORD;
 type  TDoubleArray  = array [0..0] of Double;
 type  PDwordArray    = ^TDwordArray;
