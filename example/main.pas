@@ -1,3 +1,5 @@
+//https://github.com/vvkuzmin1973
+
 unit main;
 
 interface
@@ -5,6 +7,10 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, uOSCReader,uOSCTV, ExtCtrls, ComCtrls;
+
+  type Char = AnsiChar;
+type PChar = PAnsiChar;
+
 
 type
   TForm1 = class(TForm)

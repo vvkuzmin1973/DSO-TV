@@ -4,6 +4,10 @@ interface
 
 uses Windows, Classes,SysUtils, Forms, MMSystem, uOSCReader,Math, Dialogs;
 
+type Char = AnsiChar;
+type PChar = PAnsiChar;
+
+
 type TRowEvent = procedure (var RowDataToFill : Pointer; RowNumber : Integer; var MaxX : DWORD; var RowVolts : PDoubleArray) of object;
 type TSynhroPulse = (spNone, spHSYN, spVSYN);
 type TOSCTVstatus = (osSetup,osProcessData, osWaitFirstFrame, osWaitNewFrame, osWaitEndRow, osWaitStartRowOrFrame);

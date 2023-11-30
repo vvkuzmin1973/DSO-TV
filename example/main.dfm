@@ -1,38 +1,40 @@
 object Form1: TForm1
   Left = 290
   Top = 129
-  Width = 1022
-  Height = 555
   Caption = 'Form1'
+  ClientHeight = 517
+  ClientWidth = 1010
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
-  PixelsPerInch = 96
   TextHeight = 13
   object img1: TImage
     Left = 172
     Top = 89
-    Width = 834
-    Height = 427
+    Width = 838
+    Height = 428
     Align = alClient
     OnMouseMove = img1MouseMove
+    ExplicitWidth = 834
+    ExplicitHeight = 427
   end
   object spl1: TSplitter
     Left = 169
     Top = 89
-    Height = 427
+    Height = 428
+    ExplicitHeight = 427
   end
   object pnl1: TPanel
     Left = 0
     Top = 0
-    Width = 1006
+    Width = 1010
     Height = 89
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 1006
     object lbl1: TLabel
       Left = 784
       Top = 16
@@ -148,20 +150,22 @@ object Form1: TForm1
     Left = 0
     Top = 89
     Width = 169
-    Height = 427
+    Height = 428
     Align = alLeft
     Caption = 'pnl2'
     TabOrder = 1
+    ExplicitHeight = 427
     object Memo1: TMemo
       Left = 1
       Top = 1
       Width = 167
-      Height = 425
+      Height = 426
       Align = alClient
       Lines.Strings = (
         'Memo1')
       ScrollBars = ssBoth
       TabOrder = 0
+      ExplicitHeight = 425
     end
   end
   object odmain: TOpenDialog
